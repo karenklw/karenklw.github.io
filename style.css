@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Josefin-Sans", sans-serif
+}
+
+/* Navigation */
+
+.nav-container {
+    background: #F2E4FF;
+    height: 151px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    height: 151px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+.nav-items li {
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    left: 1310px;
+    top: 118px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+    
+}
