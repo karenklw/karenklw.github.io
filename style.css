@@ -31,20 +31,10 @@ nav ul {
 
 }
 
-.nav-items li {
-    position: absolute;
-    width: 100px;
-    height: 23px;
-    left: 1310px;
-    top: 118px;
-
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-
+.nav-items li a {
     color: #000000;
-    
+    font-size: 20px;
+    font-family: "Josefin-Sans", sans-serif;
+    text-decoration: none;
 }
+
