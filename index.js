@@ -36,3 +36,15 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+// ---
+function copyToClipboard() {
+  const textToCopy = document.getElementById("copy-text").innerText;
+
+  navigator.clipboard.writeText(textToCopy)
+    .then(() => {
+      alert("Copied to clipboard!");
+    });
+}
+
+
