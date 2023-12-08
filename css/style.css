@@ -41,6 +41,9 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Josefin Sans', sans-serif; }
+.body-before-auth {
+  background-color: #424242;
+}
 
 a {
   text-decoration: none;
@@ -82,7 +85,7 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  font-size: 16px; /* Adjust the font size */
+  font-size: 20px; /* Adjust the font size */
   height: 30px; /* Adjust the height */
   border: 1px solid #ddd; /* Adding border for better visibility */
   border-radius: 5px; /* Adding border-radius for a cleaner look */

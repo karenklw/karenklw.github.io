@@ -53,6 +53,7 @@ function checkPassword() {
   if (password === 'portfolio2023') {
     document.getElementById('passwordContainer').style.display = 'none';
     document.getElementById('contentContainer').style.display = 'block';
+    document.body.classList.remove('body-before-auth')
   } else {
     alert('Incorrect password. Please try again.');
   }
