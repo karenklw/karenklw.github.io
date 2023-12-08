@@ -47,4 +47,16 @@ function copyToClipboard() {
     });
 }
 
+function checkPassword() {
+  var password = document.getElementById('password').value;
+
+  if (password === 'portfolio2023') {
+    document.getElementById('passwordContainer').style.display = 'none';
+    document.getElementById('contentContainer').style.display = 'block';
+  } else {
+    alert('Incorrect password. Please try again.');
+  }
+}
+
+
 

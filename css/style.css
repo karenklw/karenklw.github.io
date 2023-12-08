@@ -62,6 +62,50 @@ button {
 textarea {
   resize: none; }
 
+.password-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: #424242;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  max-width: 400px;
+}
+#password {
+  background-color: #5f5f5f;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px; /* Adjust the font size */
+  height: 30px; /* Adjust the height */
+  border: 1px solid #ddd; /* Adding border for better visibility */
+  border-radius: 5px; /* Adding border-radius for a cleaner look */
+}
+.password-container button {
+  padding: 10px 20px;
+  background-color: #faef8e;
+  color: #424242;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  .password-container {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .password-container {
+    width: 95%;
+  }
+}
+
 .heading-primary {
   font-family: "Merriweather";
   font-size: 6rem;
