@@ -97,7 +97,7 @@ textarea {
     color: #fff; }
     .heading-sec__main--lt::after {
       content: '';
-      background: #fff !important; }
+      background: #faef8e !important; }
   .heading-sec__main::after {
     content: '';
     position: absolute;
@@ -335,12 +335,13 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
+  background-color: #5f5f5f;
   background-size: cover;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: white;
+    background: #8d8d8d;
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
@@ -357,7 +358,7 @@ textarea {
       .contact__form-field {
         margin-bottom: 3rem; } }
   .contact__form-label {
-    color: #666;
+    color: #fff;
     font-size: 1.4rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -368,10 +369,10 @@ textarea {
     color: #333;
     padding: 2rem;
     width: 100%;
-    border: 1px solid #ebebeb;
+    border: 2px solid #ebebeb;
     font-size: 1.6rem;
     letter-spacing: 0px;
-    background: #f0f0f0;
+    background: #8d8d8d;
     border-radius: 5px;
     font-weight: 600;
     /* Code for Modern Browsers */
@@ -381,29 +382,29 @@ textarea {
     /* Code for Mozilla Firefox 4 to 18 */
     /* Code for Mozilla Firefox 19+ */ }
     .contact__form-input::placeholder {
-      color: #999;
+      color: #dddddd;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-webkit-input-placeholder {
-      color: #999;
+      color: #dddddd;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-ms-input-placeholder {
-      color: #999;
+      color: #dddddd;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-ms-input-placeholder {
-      color: #999;
+      color: #dddddd;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-moz-placeholder {
       opacity: 1;
-      color: #999;
+      color: #dddddd;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-moz-placeholder {
       opacity: 1;
-      color: #999;
+      color: #dddddd;
       font-weight: 600;
       font-size: 1.6rem; }
   .contact__btn {
