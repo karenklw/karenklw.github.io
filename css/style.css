@@ -382,13 +382,12 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
   background-color: #5f5f5f;
   background-size: cover;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: #8d8d8d;
+    background: #424242;
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
@@ -406,7 +405,7 @@ textarea {
         margin-bottom: 3rem; } }
   .contact__form-label {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     letter-spacing: 1px;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -429,29 +428,29 @@ textarea {
     /* Code for Mozilla Firefox 4 to 18 */
     /* Code for Mozilla Firefox 19+ */ }
     .contact__form-input::placeholder {
-      color: #dddddd;
+      color: #424242;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-webkit-input-placeholder {
-      color: #dddddd;
+      color: #424242;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-ms-input-placeholder {
-      color: #dddddd;
+      color: #424242;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-ms-input-placeholder {
-      color: #dddddd;
+      color: #424242;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-moz-placeholder {
       opacity: 1;
-      color: #dddddd;
+      color: #424242;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-moz-placeholder {
       opacity: 1;
-      color: #dddddd;
+      color: #424242;
       font-weight: 600;
       font-size: 1.6rem; }
   .contact__btn {
@@ -462,9 +461,12 @@ textarea {
       .contact__btn {
         width: 100%; } }
 
+.content-container {
+  background-color: #424242;
+}
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background-color: #424242;
   background-size: cover;
   background-position: center;
   position: relative; }
