@@ -50,7 +50,7 @@ function copyToClipboard() {
 function checkPassword() {
   var password = document.getElementById('password').value;
 
-  if (password === 'portfolio2023') {
+  if (password === 'karen^demo') {
     document.getElementById('passwordContainer').style.display = 'none';
     document.getElementById('contentContainer').style.display = 'block';
     document.body.classList.remove('body-before-auth')

@@ -497,6 +497,7 @@ textarea {
   max-width: 90rem;
   margin: auto; }
   .project-details__content-title {
+    color: #fff;
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 3rem; }
@@ -521,7 +522,7 @@ textarea {
   .project-details__desc-para {
     font-size: 1.8rem;
     line-height: 1.7;
-    color: grey;
+    color: #dddddd;
     margin-bottom: 2rem; }
 
 .project-details__tools-used {
